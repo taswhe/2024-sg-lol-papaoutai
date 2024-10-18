@@ -146,6 +146,15 @@ We need to make good use of the `system` prompt and ensure that the result is in
 Starting with `gpt-4o-mini` is imperative as it is a lot cheaper. Yada yada...
 The [QnACrafter](https://bit.ly/QnACrafter) PartyRock app above serves as an excellent reference for the kinds of prompts to use.
 
+
+### How much does the API cost?
+Before uploading this dataset, I used 4o-mini to conduct a basic "racial and religious" sensitivity check on each line.
+I sent approximately 5,000 entries in total. The responses I received were either "GOOD" or "BAD," along with a reason for any negative assessments.
+The outgoing token costs were clearly the main expense in this process, amounting to a total of SGD 0.43. (The cost with 4o would be roughly 10x.)
+
+  <img src="images/cost.png" alt="Cost of API calls" width="80%">
+
+
 # Questions and Comments
 I created this write-up in response to requests for the dataset.
 As AI continues to outperform human abilities in many intellectual areas, I feel that
